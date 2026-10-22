@@ -1,0 +1,827 @@
+
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description"
+          content="Book Insta360 X5 equipment, property photography, video production and media training with Jawitz Properties Centurion.">
+
+    <title>Book a Service | Jawitz Media Hub</title>
+
+    <link rel="icon" type="image/jpeg"
+          href="../assets/images/jawitz-logo.jpg">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <script src="../js/main.js" defer></script>
+    <script src="../js/bookings.js" defer></script>
+</head>
+
+<body class="bookings-page">
+
+    <!-- HEADER -->
+
+    <header class="site-header" id="top">
+        <div class="header-container">
+
+            <a href="../index.html"
+               class="brand"
+               aria-label="Jawitz Media Hub homepage">
+                <img
+                    src="../assets/images/jawitz-logo.jpg"
+                    alt="Jawitz Properties"
+                    class="brand-logo"
+                    width="160"
+                    height="120">
+            </a>
+
+            <nav class="desktop-nav" aria-label="Main navigation">
+                <a href="../index.html">HOME</a>
+                <a href="bookings.html"
+                   class="active"
+                   aria-current="page">BOOK A SERVICE</a>
+                <a href="#insta360">INSTA360 X5</a>
+                <a href="tips.html">TIPS &amp; RESOURCES</a>
+                <a href="terms.html">TERMS &amp; CONDITIONS</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+
+            <button
+                type="button"
+                class="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-controls="mobile-navigation"
+                aria-expanded="false">
+                <img
+                    src="../assets/icons/menu.svg"
+                    alt=""
+                    width="28"
+                    height="28">
+            </button>
+
+        </div>
+
+        <nav
+            id="mobile-navigation"
+            class="mobile-nav"
+            aria-label="Mobile navigation"
+            hidden>
+
+            <a href="../index.html">Home</a>
+            <a href="bookings.html" aria-current="page">Book a Service</a>
+            <a href="#insta360">Insta360 X5</a>
+            <a href="tips.html">Tips &amp; Resources</a>
+            <a href="terms.html">Terms &amp; Conditions</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- HERO SECTION -->
+
+        <section class="booking-hero"
+                 aria-labelledby="booking-title">
+
+            <div class="booking-hero-background"
+                 aria-hidden="true"></div>
+
+            <div class="container booking-hero-content">
+
+                <p class="eyebrow">JAWITZ MEDIA HUB</p>
+
+                <h1 id="booking-title">BOOK A SERVICE</h1>
+
+                <span class="accent-line"
+                      aria-hidden="true"></span>
+
+                <p class="hero-description">
+                    Choose the service you need, complete
+                    the form and we'll take care of the rest.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- BOOKING CONTENT -->
+
+        <section class="booking-section"
+                 aria-labelledby="service-selection-title">
+
+            <div class="container">
+
+                <div class="booking-section-heading">
+                    <h2 id="service-selection-title">
+                        SELECT A SERVICE
+                    </h2>
+                    <p>
+                        Select the service you would like
+                        to request.
+                    </p>
+                </div>
+
+                <!--
+                    The service cards are outside the visible
+                    form layout but belong to the booking form
+                    using form="booking-form".
+                -->
+
+                <fieldset
+                    class="service-selection"
+                    id="service-selection">
+
+                    <legend class="visually-hidden">
+                        Choose one service
+                    </legend>
+
+                    <div class="booking-service-grid">
+
+                        <!-- INSTA360 X5 -->
+
+                        <label class="booking-service-card"
+                               id="insta360">
+
+                            <input
+                                type="radio"
+                                name="service"
+                                value="insta360"
+                                form="booking-form"
+                                required>
+
+                            <div class="booking-service-image">
+                                <img
+                                    src="../assets/images/insta360-x5.png"
+                                    alt="Insta360 X5 camera"
+                                    loading="lazy"
+                                    style="object-fit: contain;">
+                            </div>
+
+                            <div class="booking-service-information">
+
+                                <img
+                                    src="../assets/icons/camera.svg"
+                                    alt=""
+                                    class="booking-service-icon"
+                                    width="30"
+                                    height="30">
+
+                                <div>
+                                    <h3>INSTA360 X5</h3>
+                                    <p>
+                                        Book the camera for your
+                                        property content.
+                                    </p>
+                                </div>
+
+                                <span
+                                    class="service-selection-indicator"
+                                    aria-hidden="true"></span>
+
+                            </div>
+                        </label>
+
+                        <!-- PROPERTY PHOTOGRAPHY -->
+
+                        <label class="booking-service-card"
+                               id="media-support">
+
+                            <input
+                                type="radio"
+                                name="service"
+                                value="photography"
+                                form="booking-form">
+
+                            <div class="booking-service-image">
+                                <img
+                                    src="../assets/images/property-photography.jpg"
+                                    alt="Professional property interior"
+                                    loading="lazy">
+                            </div>
+
+                            <div class="booking-service-information">
+
+                                <img
+                                    src="../assets/icons/photos.svg"
+                                    alt=""
+                                    class="booking-service-icon"
+                                    width="30"
+                                    height="30">
+
+                                <div>
+                                    <h3>PROPERTY PHOTOGRAPHY</h3>
+                                    <p>
+                                        Professional interior,
+                                        exterior and lifestyle photography.
+                                    </p>
+                                </div>
+
+                                <span
+                                    class="service-selection-indicator"
+                                    aria-hidden="true"></span>
+
+                            </div>
+                        </label>
+
+                        <!-- VIDEO PRODUCTION -->
+
+                        <label class="booking-service-card">
+
+                            <input
+                                type="radio"
+                                name="service"
+                                value="video"
+                                form="booking-form">
+
+                            <div class="booking-service-image">
+                                <img
+                                    src="../assets/images/video-production.jpg"
+                                    alt="Video production equipment"
+                                    loading="lazy">
+                            </div>
+
+                            <div class="booking-service-information">
+
+                                <img
+                                    src="../assets/icons/video.svg"
+                                    alt=""
+                                    class="booking-service-icon"
+                                    width="30"
+                                    height="30">
+
+                                <div>
+                                    <h3>VIDEO PRODUCTION &amp; EDITING</h3>
+                                    <p>
+                                        Engaging videos and
+                                        short-form reels.
+                                    </p>
+                                </div>
+
+                                <span
+                                    class="service-selection-indicator"
+                                    aria-hidden="true"></span>
+
+                            </div>
+                        </label>
+
+                        <!-- MEDIA TRAINING -->
+
+                        <label class="booking-service-card">
+
+                            <input
+                                type="radio"
+                                name="service"
+                                value="training"
+                                form="booking-form">
+
+                            <div class="booking-service-image">
+                                <img
+                                    src="../assets/images/media-training.jpg"
+                                    alt="Media training workspace"
+                                    loading="lazy">
+                            </div>
+
+                            <div class="booking-service-information">
+
+                                <img
+                                    src="../assets/icons/training.svg"
+                                    alt=""
+                                    class="booking-service-icon"
+                                    width="30"
+                                    height="30">
+
+                                <div>
+                                    <h3>MEDIA TRAINING</h3>
+                                    <p>
+                                        One-on-one or group
+                                        training sessions.
+                                    </p>
+                                </div>
+
+                                <span
+                                    class="service-selection-indicator"
+                                    aria-hidden="true"></span>
+
+                            </div>
+                        </label>
+
+                    </div>
+                </fieldset>
+
+                <!-- BOOKING FORM AND SIDEBAR -->
+
+                <div class="booking-layout">
+
+                    <div class="booking-form-panel">
+
+                        <h2>BOOKING DETAILS</h2>
+
+                        <p class="booking-form-introduction">
+                            Please complete the details below
+                            so we can review your request.
+                        </p>
+
+                        <form
+                            id="booking-form"
+                            class="booking-form"
+                            action="https://formspree.io/f/xljgqyob"
+                            method="POST">
+
+                            <div class="form-grid">
+
+                                <!-- AGENT NAME -->
+
+                                <div class="form-group">
+                                    <label for="booking-name">
+                                        AGENT NAME
+                                        <span aria-hidden="true">*</span>
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="booking-name"
+                                        name="full_name"
+                                        placeholder="Enter your name"
+                                        autocomplete="name"
+                                        maxlength="120"
+                                        required>
+                                </div>
+
+                                <!-- AREA IN CENTURION -->
+
+                                <div class="form-group">
+                                    <label for="booking-area">
+                                        AREA IN CENTURION
+                                        <span aria-hidden="true">*</span>
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="booking-area"
+                                        name="centurion_area"
+                                        placeholder="e.g. Eldoraigne, Die Hoewes, Midstream"
+                                        maxlength="120"
+                                        required>
+                                </div>
+
+                                <!-- EMAIL -->
+
+                                <div class="form-group">
+                                    <label for="booking-email">
+                                        EMAIL ADDRESS
+                                        <span aria-hidden="true">*</span>
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="booking-email"
+                                        name="email"
+                                        placeholder="Enter your email address"
+                                        autocomplete="email"
+                                        maxlength="254"
+                                        required>
+                                </div>
+
+                                <!-- PHONE -->
+
+                                <div class="form-group">
+                                    <label for="booking-phone">
+                                        CONTACT NUMBER
+                                        <span aria-hidden="true">*</span>
+                                    </label>
+
+                                    <input
+                                        type="tel"
+                                        id="booking-phone"
+                                        name="phone"
+                                        placeholder="Enter your contact number"
+                                        autocomplete="tel"
+                                        maxlength="30"
+                                        required>
+                                </div>
+
+                                <!-- DATE -->
+
+                                <div class="form-group">
+                                    <label for="booking-date">
+                                        PREFERRED DATE
+                                        <span aria-hidden="true">*</span>
+                                    </label>
+
+                                    <input
+                                        type="date"
+                                        id="booking-date"
+                                        name="preferred_date"
+                                        required>
+                                </div>
+
+                                <!-- TIME -->
+
+                                <div class="form-group">
+                                    <label for="booking-time">
+                                        PREFERRED TIME
+                                        <span aria-hidden="true">*</span>
+                                    </label>
+
+                                    <input
+                                        type="time"
+                                        id="booking-time"
+                                        name="preferred_time"
+                                        required>
+                                </div>
+
+                                <!-- PROPERTY ADDRESS -->
+
+                                <div class="form-group form-group-full">
+                                    <label for="booking-property">
+                                        PROPERTY ADDRESS
+                                        <span class="optional-label">
+                                            (IF APPLICABLE)
+                                        </span>
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="booking-property"
+                                        name="property_address"
+                                        placeholder="Enter the property address"
+                                        maxlength="300">
+                                </div>
+
+                                <!-- ADDITIONAL INFORMATION -->
+
+                                <div class="form-group form-group-full">
+                                    <label for="booking-notes">
+                                        ADDITIONAL INFORMATION
+                                    </label>
+
+                                    <textarea
+                                        id="booking-notes"
+                                        name="additional_information"
+                                        rows="5"
+                                        maxlength="3000"
+                                        placeholder="Let us know about your project, special requirements or preferred arrangements..."></textarea>
+                                </div>
+
+                            </div>
+
+                            <!-- TERMS & CONDITIONS -->
+
+                            <div class="booking-terms-panel">
+
+                                <div class="booking-terms-heading">
+
+                                    <img
+                                        src="../assets/icons/terms.svg"
+                                        alt=""
+                                        width="30"
+                                        height="30">
+
+                                    <div>
+                                        <h3>TERMS &amp; CONDITIONS</h3>
+                                        <p>
+                                            Please read and accept the
+                                            terms before submitting
+                                            your booking request.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <a
+                                    href="terms.html"
+                                    class="text-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    VIEW TERMS &amp; CONDITIONS
+                                    <span aria-hidden="true">&rarr;</span>
+                                </a>
+
+                                <!-- GENERAL TERMS -->
+
+                                <div class="form-checkbox-group">
+
+                                    <input
+                                        type="checkbox"
+                                        id="booking-terms"
+                                        name="accept_terms"
+                                        value="yes"
+                                        required>
+
+                                    <label for="booking-terms">
+                                        I have read and understand
+                                        the Terms &amp; Conditions
+                                        applicable to my booking.
+                                    </label>
+
+                                </div>
+
+                                <!-- INSTA360 TERMS -->
+
+                                <div
+                                    class="form-checkbox-group insta360-acknowledgement"
+                                    id="insta360-acknowledgement"
+                                    hidden>
+
+                                    <input
+                                        type="checkbox"
+                                        id="booking-equipment-terms"
+                                        name="accept_equipment_terms"
+                                        value="yes">
+
+                                    <label for="booking-equipment-terms">
+                                        I understand that the Insta360 X5
+                                        and its accessories must be
+                                        returned in the same condition
+                                        as received, excluding fair wear
+                                        and tear. I acknowledge that
+                                        damage, loss or theft may result
+                                        in reasonable repair or replacement
+                                        costs depending on the circumstances
+                                        and applicable law.
+                                    </label>
+
+                                </div>
+
+                            </div>
+
+                            <!-- SUBMIT -->
+
+                            <button
+                                type="submit"
+                                class="button button-accent booking-submit"
+                                id="booking-submit">
+
+                                <span>SUBMIT BOOKING REQUEST</span>
+                                <span aria-hidden="true">&rarr;</span>
+
+                            </button>
+
+                            <p class="booking-submit-note">
+                                Click Submit Booking Request to send
+                                your details directly to the Jawitz
+                                Centurion Marketing Department.
+
+                                Your booking is subject to availability
+                                and is only confirmed when Marketing responds.
+                            </p>
+
+                            <p
+                                id="booking-form-status"
+                                class="booking-form-status"
+                                role="status"
+                                aria-live="polite"></p>
+
+                        </form>
+
+                    </div>
+
+                    <!-- RIGHT SIDEBAR -->
+
+                    <aside
+                        class="booking-sidebar"
+                        aria-label="Booking assistance">
+
+                        <!-- QUICK CONTACT -->
+
+                        <div class="quick-contact-panel">
+
+                            <h2>QUICK CONTACT</h2>
+
+                            <div class="quick-contact-grid">
+
+                                <a
+                                    class="quick-contact-card"
+                                    href="mailto:marketing@jawitzcenturion.co.za?subject=Jawitz%20Media%20Hub%20Booking%20Enquiry">
+
+                                    <img
+                                        src="../assets/icons/email.svg"
+                                        alt=""
+                                        width="28"
+                                        height="28">
+
+                                    <span>
+                                        <strong>EMAIL US</strong>
+                                        <small>
+                                            marketing@jawitzcenturion.co.za
+                                        </small>
+                                    </span>
+                                </a>
+
+                                <a
+                                    class="quick-contact-card"
+                                    href="tel:+27661531800">
+
+                                    <img
+                                        src="../assets/icons/contact.svg"
+                                        alt=""
+                                        width="28"
+                                        height="28">
+
+                                    <span>
+                                        <strong>CALL US</strong>
+                                        <small>066 153 1800</small>
+                                    </span>
+                                </a>
+
+                                <a
+                                    class="quick-contact-card whatsapp-contact"
+                                    href="https://wa.me/27661531800?text=Good%20day%2C%20I%20would%20like%20assistance%20with%20a%20Jawitz%20Media%20Hub%20booking."
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Chat with Jawitz Media Hub on WhatsApp">
+
+                                    <svg
+                                        class="whatsapp-icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 32 32"
+                                        width="30"
+                                        height="30"
+                                        aria-hidden="true"
+                                        fill="currentColor">
+
+                                        <path d="M16 .8A15.1 15.1 0 0 0 3 23.6L.8 31.2l7.8-2A15.2 15.2 0 1 0 16 .8Zm0 27.5a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.6 1.2 1.2-4.5-.3-.5A12.4 12.4 0 1 1 16 28.3Zm6.8-9.2c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.8.2-.4.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1a10.2 10.2 0 0 1-3-1.9 11.2 11.2 0 0 1-2.1-2.6c-.2-.4 0-.6.2-.8l.6-.7.4-.6c.1-.2 0-.5 0-.7l-1.2-2.8c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.2s1.3 3.7 1.5 4c.2.3 2.6 4.1 6.4 5.6 3.1 1.2 3.8 1 4.5.9.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5Z"/>
+
+                                    </svg>
+
+                                    <span>
+                                        <strong>WHATSAPP US</strong>
+                                        <small>Chat on WhatsApp</small>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!-- BEFORE YOU BOOK -->
+
+                        <div class="booking-information-panel">
+
+                            <h2>BEFORE YOU BOOK</h2>
+
+                            <ul class="booking-information-list">
+
+                                <li>
+                                    All requests are subject to availability.
+                                </li>
+
+                                <li>
+                                    A submitted request is not
+                                    a confirmed booking.
+                                </li>
+
+                                <li>
+                                    Please provide accurate contact
+                                    and booking details.
+                                </li>
+
+                                <li>
+                                    Insta360 X5 bookings are subject
+                                    to equipment responsibility conditions.
+                                </li>
+
+                                <li>
+                                    The Marketing Department will advise
+                                    on confirmation and next steps.
+                                </li>
+
+                            </ul>
+
+                            <a href="terms.html" class="text-link">
+                                READ OUR BOOKING POLICIES
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+
+                        </div>
+
+                    </aside>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+
+        <section class="booking-bottom-cta">
+
+            <div class="container booking-bottom-cta-inner">
+
+                <div>
+                    <h2>NEED HELP WITH YOUR BOOKING?</h2>
+                    <p>
+                        Contact our Marketing Department
+                        for assistance.
+                    </p>
+                </div>
+
+                <a
+                    href="https://wa.me/27661531800?text=Good%20day%2C%20I%20need%20assistance%20with%20a%20Jawitz%20Media%20Hub%20booking."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button button-outline">
+
+                    WHATSAPP US
+                    <span aria-hidden="true">&rarr;</span>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- MOBILE QUICK CONTACT BAR -->
+
+    <nav
+        class="mobile-contact-bar"
+        aria-label="Quick contact options">
+
+        <a
+            href="mailto:marketing@jawitzcenturion.co.za"
+            aria-label="Email the Marketing Department">
+
+            <img
+                src="../assets/icons/email.svg"
+                alt=""
+                width="24"
+                height="24">
+
+            <span>EMAIL</span>
+        </a>
+
+        <a
+            href="tel:+27661531800"
+            aria-label="Call the Marketing Department">
+
+            <img
+                src="../assets/icons/contact.svg"
+                alt=""
+                width="24"
+                height="24">
+
+            <span>CALL</span>
+        </a>
+
+        <a
+            href="https://wa.me/27661531800?text=Good%20day%2C%20I%20need%20assistance%20with%20a%20booking."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contact the Marketing Department on WhatsApp">
+
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+                width="24"
+                height="24"
+                fill="currentColor"
+                aria-hidden="true">
+
+                <path d="M16 .8A15.1 15.1 0 0 0 3 23.6L.8 31.2l7.8-2A15.2 15.2 0 1 0 16 .8Zm0 27.5a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.6 1.2 1.2-4.5-.3-.5A12.4 12.4 0 1 1 16 28.3Zm6.8-9.2c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.8.2-.4.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1a10.2 10.2 0 0 1-3-1.9 11.2 11.2 0 0 1-2.1-2.6c-.2-.4 0-.6.2-.8l.6-.7.4-.6c.1-.2 0-.5 0-.7l-1.2-2.8c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.2s1.3 3.7 1.5 4c.2.3 2.6 4.1 6.4 5.6 3.1 1.2 1.2 4.5.9.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5Z"/>
+
+            </svg>
+
+            <span>WHATSAPP</span>
+        </a>
+
+    </nav>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <div class="footer-brand">
+                <p class="footer-title">JAWITZ MEDIA HUB</p>
+                <p>Jawitz Properties Centurion</p>
+            </div>
+
+            <div class="footer-contact">
+                <a href="mailto:marketing@jawitzcenturion.co.za">
+                    marketing@jawitzcenturion.co.za
+                </a>
+
+                <a href="tel:+27661531800">
+                    066 153 1800
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <a href="tips.html">Tips &amp; Resources</a>
+                <a href="terms.html">Terms &amp; Conditions</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <p class="copyright">
+                &copy; 2026 Jawitz Properties Centurion.
+                All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
